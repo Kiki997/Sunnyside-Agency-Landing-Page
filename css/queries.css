@@ -1,0 +1,266 @@
+/************************************/
+/*Bellow 1344px**Smaller laptops****/
+/********************************* **/
+
+@media(max-width: 84em){
+    /* 84 em = 1366px / 16px */
+
+.header-text{
+ left: 30%;
+ }
+
+ .sub-details {
+     padding: 17rem;
+     top:30%;
+    }
+
+.social-links{
+    padding: 5rem 50rem 3rem 50rem;
+}
+}
+
+/************************************/
+/*Bellow 1200px**Landscape tablet****/
+/********************************* **/
+
+@media(max-width: 75em){
+    /* 75 em = 1200px / 16px */
+ html{
+     font-size: 56.2%;
+}
+.sub-details{
+    padding:15rem ;
+    top: 31%;
+}
+
+.subtext{
+    font-size: 1.6rem;
+}
+.testimonial-text{
+    padding: 3.2rem 6rem;
+}
+.footer-nav{
+    padding: 0 40rem;
+}
+}
+
+/************************************/
+/*Bellow 944*px************Tablet****/
+/********************************* **/
+
+@media(max-width: 59em){
+
+    html{
+        /* 8px / 16px =0.5 =  50% */
+        font-size: 50%;
+    }
+
+    .main-nav:last-child{
+        padding-right: 0.5rem;
+    }
+
+    .header-text{
+        left:25%;
+    }
+
+    .content-description{
+        padding: 7rem;
+    }
+
+    .content-header{
+        padding-right: 5rem;
+    }
+    .sub-details{
+        padding:10rem ;
+        top: 38%;
+    }
+
+    .graphic-design{
+        height:52rem;
+    }
+
+    .photography{
+        height:52rem;
+    }
+
+    .subtext{
+        font-size: 1.7rem;
+    }
+    .testimonials{
+        padding-bottom: 8rem;
+    }
+
+    .testimonials-header{
+        font-size: 1.8rem;
+    }
+
+    .testimonial-img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    
+    .testimonial-title{
+    font-size: 1.4rem;;
+}
+
+    .gallery-item{
+    height: 35rem;
+}
+.footer-nav{
+    padding: 0 35rem;
+}
+    .footer{
+        height: 28rem;
+    }
+    .footer-link{
+        font-size: 1.6rem;
+}
+    .social-links{
+    padding: 5rem 30rem 3rem 30rem;
+}
+    .slink{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+ 
+}
+
+/************************************/
+/*Bellow 700*px** **SmallerTablet****/
+/********************************* **/
+
+@media(max-width: 49em){
+
+    .main-nav{
+        display: none;
+    }
+    .header-text{
+        left:18%;
+    }
+
+    .content-description{
+        padding: 5rem;
+    }
+
+    .content-header{
+        padding-right: 0;
+    }
+
+    .btn-lm{
+        display: flex;
+        align-content: flex-end;
+        justify-content: center;
+    }
+    .subtext{
+        font-size: 1.6rem;
+    }
+    .sub-details{
+        padding:5rem ;
+        top: 48%;
+    }
+    .gallery-item{
+        height: 30rem;
+    }
+
+    .footer-nav{
+        padding: 0 30rem;
+    }
+}
+
+/************************************/
+/*Bellow 550*px** **SmallerPhones****/
+/********************************* **/
+
+@media(max-width: 59em){
+
+    .header-text{
+        padding: 0 5rem;
+        text-align: center;
+        left:5%;
+        top:24%
+    }
+
+    .content-img{
+        height: 45rem ;
+        grid-row:1;
+    }
+
+    .content-description{
+        height: 42rem;
+    }
+
+    .content-row {
+        grid-template-columns: 1fr;
+    }
+
+    .btn-lm{
+        display: flex;
+        align-content: flex-end;
+        justify-content: center;
+    }
+
+    .content-header{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .content-text{
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .graphic-design{
+        height:60rem;
+        }
+
+    .photography{
+        height:60rem;
+        grid-row: 2;
+    }
+
+    .subheader{
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .subtext{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .testimonials{
+        height: auto;
+    }
+
+    .testimonials-body{
+        grid-template-columns: 1fr;
+     
+    }
+    .testimonials-item:not(:last-child){
+        padding-bottom: 8rem;
+    }
+
+    .testimonial-text{
+        padding:  3rem 5rem;
+        line-height: 2;
+        font-size: 2rem;
+    }
+
+    .gallery{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .gallery-item{
+        height: auto;
+    }
+
+    .footer-nav{
+        padding: 0 10rem;
+    }
+
+    .social-links{
+        padding: 5rem 15rem 3rem 15rem;
+    }
+}

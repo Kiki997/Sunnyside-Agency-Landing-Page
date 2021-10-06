@@ -120,10 +120,10 @@ html{
     letter-spacing: 0.5rem;
     color: rgb(255, 255, 255);
     position: absolute;
-    top:20rem;
-    left:48rem;
+    top:28%;
+    left:32%;
 }
-
+/* 
 .arrow::before{
     content: " ";
     display: inline-block !important;
@@ -132,8 +132,8 @@ html{
     background-color: #fff;
     vertical-align: middle;
     position: absolute;
-    top: 36rem;
-    left:76rem;
+    top: 48%;
+    left:51%;
 }
 
 .arrow::after{
@@ -143,12 +143,18 @@ html{
     display: inline-block;
     position: absolute;
     transform: rotate(45deg);
-    top:41.8rem;
-    left:75.5rem;
+    top:57%;
+    left:50%;
     border-bottom: 3px  solid white;
     border-right: 3px  solid white;
+} */
+.arrow{
+    position: absolute;
+    top: 47%;
+    left: 49%;
+    width: 3rem;
+    height: 10rem;
 }
-
 /*****************************************************
 /* CONTENT*/
 /****************************************************/
@@ -179,6 +185,8 @@ html{
 
 .learn-more{
     text-decoration: none;
+    border: none;
+    background-color: transparent;
     font-size: 1.8rem;
     text-transform: uppercase;
     display: inline-block;
@@ -237,7 +245,7 @@ html{
 .sub-details{
     padding:20rem;
     position: absolute;
-    top:13rem;
+    top:24%;
 }
 
 .subheader{
@@ -391,7 +399,8 @@ html{
 }
 .slink:hover,
 .slink:visited{
-    fill: white
+    fill: white;
+    cursor: pointer;
 }
 
 .attribution { 
