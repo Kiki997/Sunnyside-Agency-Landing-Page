@@ -17,12 +17,14 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/queries.css">
+  <script defer  src="script.js" ></script>
 </head>
 
 <body>
   <header class="header">
     <nav class="header-nav">
       <img class="logo" src="images/logo.svg" alt="Company logo">
+      <div class=" toggle ">
       <ul class="main-nav">
         <li class="nav-link about"><a href="#">About</a></li>
         <li class="nav-link service"><a href="#">Services</a></li>
@@ -31,7 +33,12 @@
           <a class="btn btn-contact" href="#">Contact</a>
         </li>
       </ul>
+    </div>
     </nav>
+     <!-- Mobile nav setup -->
+     <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      </button>
     <h1 class="header-text">We are creatives</h1>
     <img class="arrow" src="images/icon-arrow-down.svg">
   </header>
